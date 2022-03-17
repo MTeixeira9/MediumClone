@@ -4,8 +4,8 @@ import { ReactiveFormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
 import { StoreModule } from '@ngrx/store'
 
-import { RegisterComponent } from './components/register/register.component'
-import { reducers } from './store/reducer'
+import { RegisterComponent } from 'src/app/auth/components/register/register.component'
+import { reducers } from 'src/app/auth/store/reducer'
 
 const routes = [
   {
